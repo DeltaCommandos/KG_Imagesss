@@ -1,0 +1,8 @@
+C:\Users\student\Downloads\Images-main\Images-main\Imagesss\obj\Debug\netcoreapp3.1\Imagesss.BinarForm.resources
+C:\Users\student\Downloads\Images-main\Images-main\Imagesss\obj\Debug\netcoreapp3.1\Imagesss.Form1.resources
+C:\Users\student\Downloads\Images-main\Images-main\Imagesss\obj\Debug\netcoreapp3.1\Imagesss.HistogramForm.resources
+C:\Users\student\Downloads\Images-main\Images-main\Imagesss\obj\Debug\netcoreapp3.1\Imagesss.csproj.GenerateResource.cache
+C:\Users\student\Downloads\Images-main\Images-main\Imagesss\obj\Debug\netcoreapp3.1\Imagesss.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\Downloads\Images-main\Images-main\Imagesss\obj\Debug\netcoreapp3.1\Imagesss.AssemblyInfoInputs.cache
+C:\Users\student\Downloads\Images-main\Images-main\Imagesss\obj\Debug\netcoreapp3.1\Imagesss.AssemblyInfo.cs
+C:\Users\student\Downloads\Images-main\Images-main\Imagesss\obj\Debug\netcoreapp3.1\Imagesss.csproj.CoreCompileInputs.cache

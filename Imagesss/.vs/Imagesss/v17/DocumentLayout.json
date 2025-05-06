@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|d:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\imagesss (1)\\kg_imagesss\\imagesss\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|d:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\imagesss (1)\\kg_imagesss\\imagesss\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|d:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\imagesss (1)\\kg_imagesss\\imagesss\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|d:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\imagesss (1)\\kg_imagesss\\imagesss\\binarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|solutionrelative:binarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\histogramform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|solutionrelative:histogramform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\binarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|solutionrelative:binarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BinarForm.cs",
+              "DocumentMoniker": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\BinarForm.cs",
+              "RelativeDocumentMoniker": "BinarForm.cs",
+              "ToolTip": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\BinarForm.cs",
+              "RelativeToolTip": "BinarForm.cs",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T20:31:29.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwFYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:48:35.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwEQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:48:12.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HistogramForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\HistogramForm.cs",
+              "RelativeDocumentMoniker": "HistogramForm.cs",
+              "ToolTip": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\HistogramForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "HistogramForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:45:22.928Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:45:23.653Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BinarForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\BinarForm.cs",
+              "RelativeDocumentMoniker": "BinarForm.cs",
+              "ToolTip": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\BinarForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "BinarForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:45:23.703Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

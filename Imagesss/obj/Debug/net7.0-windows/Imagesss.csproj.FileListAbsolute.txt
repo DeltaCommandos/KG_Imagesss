@@ -1,0 +1,8 @@
+C:\Users\student\Downloads\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows\Imagesss.BinarForm.resources
+C:\Users\student\Downloads\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows\Imagesss.Form1.resources
+C:\Users\student\Downloads\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows\Imagesss.HistogramForm.resources
+C:\Users\student\Downloads\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows\Imagesss.csproj.GenerateResource.cache
+C:\Users\student\Downloads\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows\Imagesss.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\Downloads\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows\Imagesss.AssemblyInfoInputs.cache
+C:\Users\student\Downloads\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows\Imagesss.AssemblyInfo.cs
+C:\Users\student\Downloads\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows\Imagesss.csproj.CoreCompileInputs.cache
