@@ -20,6 +20,29 @@ C:\Users\student\Downloads\Images-main\Images-main\Imagesss\obj\Debug\net7.0-win
 C:\Users\student\Downloads\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.pdb
 C:\Users\student\Downloads\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.genruntimeconfig.cache
 C:\Users\student\Downloads\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\ref\Imagesss.dll
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\bin\Debug\net7.0-windows10.0.22621.0\Imagesss.exe
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\bin\Debug\net7.0-windows10.0.22621.0\Imagesss.dll.config
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\bin\Debug\net7.0-windows10.0.22621.0\Imagesss.deps.json
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\bin\Debug\net7.0-windows10.0.22621.0\Imagesss.runtimeconfig.json
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\bin\Debug\net7.0-windows10.0.22621.0\Imagesss.dll
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\bin\Debug\net7.0-windows10.0.22621.0\Imagesss.pdb
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.Windows.SDK.NET.dll
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\bin\Debug\net7.0-windows10.0.22621.0\WinRT.Runtime.dll
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.BinarForm.resources
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.Form1.resources
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.HistogramForm.resources
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.csproj.GenerateResource.cache
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.AssemblyInfoInputs.cache
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.AssemblyInfo.cs
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.csproj.CopyComplete
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.dll
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\refint\Imagesss.dll
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.pdb
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.genruntimeconfig.cache
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\ref\Imagesss.dll
+C:\Users\student\Documents\ИДБ-22-04\Абрамкин\Images-main\Images-main\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.Filter.resources
 D:\переброс\Imagesss (1)\KG_Imagesss\Imagesss\bin\Debug\net7.0-windows10.0.22621.0\Imagesss.exe
 D:\переброс\Imagesss (1)\KG_Imagesss\Imagesss\bin\Debug\net7.0-windows10.0.22621.0\Imagesss.dll.config
 D:\переброс\Imagesss (1)\KG_Imagesss\Imagesss\bin\Debug\net7.0-windows10.0.22621.0\Imagesss.deps.json
@@ -36,10 +59,11 @@ D:\переброс\Imagesss (1)\KG_Imagesss\Imagesss\obj\Debug\net7.0-windows10
 D:\переброс\Imagesss (1)\KG_Imagesss\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.AssemblyInfoInputs.cache
 D:\переброс\Imagesss (1)\KG_Imagesss\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.AssemblyInfo.cs
 D:\переброс\Imagesss (1)\KG_Imagesss\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.csproj.CoreCompileInputs.cache
+D:\переброс\Imagesss (1)\KG_Imagesss\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.sourcelink.json
 D:\переброс\Imagesss (1)\KG_Imagesss\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.csproj.Up2Date
 D:\переброс\Imagesss (1)\KG_Imagesss\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.dll
 D:\переброс\Imagesss (1)\KG_Imagesss\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\refint\Imagesss.dll
 D:\переброс\Imagesss (1)\KG_Imagesss\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.pdb
 D:\переброс\Imagesss (1)\KG_Imagesss\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.genruntimeconfig.cache
 D:\переброс\Imagesss (1)\KG_Imagesss\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\ref\Imagesss.dll
-D:\переброс\Imagesss (1)\KG_Imagesss\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.sourcelink.json
+D:\переброс\Imagesss (1)\KG_Imagesss\Imagesss\obj\Debug\net7.0-windows10.0.22621.0\Imagesss.SpaceFilter.resources

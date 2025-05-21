@@ -37,22 +37,25 @@ namespace Imagesss
            // MessageBox.Show($"{3/2}");
             switch(comboBox1.Text)
             {
-                case "Niblack":
-                    NiblackBin();
-                    break;
-                case "Sauvol":
-                    SauvolBin();
-                    break;
-                case "Wolf":
-                    WolfBin();
-                    break;
-                case "Gavrilov":
+                case "Гаврилов":
                     GavrilovBin();
                     break;
-                case "Bradley-Roth":
+                case "Отсу":
+                    OtsuBin();
+                    break;
+                case "Ниблекс":
+                    NiblackBin();
+                    break;
+                case "Саувол":
+                    SauvolBin();
+                    break;
+                case "Вольф":
+                    WolfBin();
+                    break;
+                case "Брэдли-Рот":
                     BradleyRothBin();
                     break;
-                case "No":
+                case "Нет":
                     pictureBox1.Image = image;
                     break;
             }
@@ -79,7 +82,7 @@ namespace Imagesss
             Bitmap res = new Bitmap(w, h);
             while (true)
             {
-                string input = Interaction.InputBox("Write down odd number for box:", "Input", "15");
+                string input = Interaction.InputBox("Введите нечетное число:", "Input", "15");
                 if (string.IsNullOrEmpty(input))
                 {
                     pictureBox1.Image = image;
@@ -87,12 +90,12 @@ namespace Imagesss
                 }
                 if (int.TryParse(input, out a)&& a%2==1 && a>0)
                     break;
-                MessageBox.Show("'a' must be odd number", "Error", MessageBoxButtons.OK);
+                MessageBox.Show("'a' должно быть нечетным", "Error", MessageBoxButtons.OK);
 
             }
             while (true)
             {
-                string input = Interaction.InputBox("Write down k:", "Input", "-0.2");
+                string input = Interaction.InputBox("Введите k:", "Input", "-0,2");
                 if (string.IsNullOrEmpty(input)) return;
                 if (float.TryParse(input, out k))
                     break;
@@ -152,7 +155,7 @@ namespace Imagesss
             Bitmap res = new Bitmap(w, h);
             while (a % 2 == 0)
             {
-                string input = Interaction.InputBox("Write down odd number for box:", "Input", "15");
+                string input = Interaction.InputBox("Введите нечетное число:", "Input", "15");
                 if (string.IsNullOrEmpty(input))
                 {
                     pictureBox1.Image = image;
@@ -160,12 +163,12 @@ namespace Imagesss
                 }
                 if (int.TryParse(input, out a) && a % 2 == 1)
                     break;
-                MessageBox.Show("'a' must be odd number", "Error", MessageBoxButtons.OK);
+                MessageBox.Show("'a' должно быть нечетным", "Error", MessageBoxButtons.OK);
 
             }
             while (true)
             {
-                string input = Interaction.InputBox("Write down k:", "Input", "0.25");
+                string input = Interaction.InputBox("Введите k:", "Input", "-0,2");
                 if (string.IsNullOrEmpty(input)) return;
                 if (float.TryParse(input, out k))
                     break;
@@ -226,7 +229,7 @@ namespace Imagesss
             Bitmap res = new Bitmap(w, h);
             while (a % 2 == 0)
             {
-                string input = Interaction.InputBox("Write down odd number for box:", "Input", "15");
+                string input = Interaction.InputBox("Введите нечетное число:", "Input", "15");
                 if (string.IsNullOrEmpty(input))
                 {
                     pictureBox1.Image = image;
@@ -234,12 +237,12 @@ namespace Imagesss
                 }
                 if (int.TryParse(input, out a) && a % 2 == 1)
                     break;
-                MessageBox.Show("'a' must be odd number", "Error", MessageBoxButtons.OK);
+                MessageBox.Show("'a' должно быть нечетным", "Error", MessageBoxButtons.OK);
 
             }
             while (true)
             {
-                string input = Interaction.InputBox("Write down a:", "Input", "0.5");
+                string input = Interaction.InputBox("Введите a:", "Input", "0,5");
                 if (string.IsNullOrEmpty(input)) return;
                 if (float.TryParse(input, out A))
                     break;
@@ -342,6 +345,86 @@ namespace Imagesss
             SetImgBytes(res, resdata);
             pictureBox1.Image = res;
         }
+
+        private void OtsuBin()
+        {
+            byte[] data = new byte[image.Width * image.Height * 4];
+            data = GetImgBytes(image);
+            int w = image.Width;
+            int h = image.Height;
+            byte[] resdata = new byte[w * h * 4];
+            Bitmap res = new Bitmap(w, h);
+
+            // Вычисляем гистограмму яркости
+            int[] histogram = new int[256];
+            for (int y = 0; y < h; y++)
+            {
+                for (int x = 0; x < w; x++)
+                {
+                    int index = (y * w + x) * 4;
+                    byte gray = (byte)(0.2125 * data[index + 0] + 0.7154 * data[index + 1] + 0.0721 * data[index + 2]);
+                    histogram[gray]++;
+                }
+            }
+
+            // Вычисляем общее количество пикселей
+            int totalPixels = w * h;
+
+            // Находим оптимальный порог по методу Оцу
+            float sum = 0;
+            for (int t = 0; t < 256; t++) sum += t * histogram[t];
+
+            float sumB = 0;
+            int wB = 0;
+            int wF = 0;
+            float varMax = 0;
+            byte threshold = 0;
+
+            for (int t = 0; t < 256; t++)
+            {
+                wB += histogram[t]; // Вес фона
+                if (wB == 0) continue;
+
+                wF = totalPixels - wB; // Вес переднего плана
+                if (wF == 0) break;
+
+                sumB += (float)(t * histogram[t]);
+
+                float mB = sumB / wB; // Средняя яркость фона
+                float mF = (sum - sumB) / wF; // Средняя яркость переднего плана
+
+                // Вычисляем межклассовую дисперсию
+                float varBetween = (float)wB * (float)wF * (mB - mF) * (mB - mF);
+
+                // Проверяем, является ли это максимальной дисперсией
+                if (varBetween > varMax)
+                {
+                    varMax = varBetween;
+                    threshold = (byte)t;
+                }
+            }
+
+            // Применяем порог к изображению
+            for (int y = 0; y < h; y++)
+            {
+                for (int x = 0; x < w; x++)
+                {
+                    int index = (y * w + x) * 4;
+                    byte gray = (byte)(0.2125 * data[index + 0] + 0.7154 * data[index + 1] + 0.0721 * data[index + 2]);
+                    byte binar = (gray <= threshold) ? (byte)0 : (byte)255;
+
+                    resdata[index] = binar;
+                    resdata[index + 1] = binar;
+                    resdata[index + 2] = binar;
+                    resdata[index + 3] = data[index + 3];
+                }
+            }
+
+            SetImgBytes(res, resdata);
+            pictureBox1.Image = res;
+        }
+
+
         private void BradleyRothBin()
         {
             byte[] data = new byte[image.Width * image.Height * 4];
@@ -354,7 +437,7 @@ namespace Imagesss
             Bitmap res = new Bitmap(w, h);
             while (a % 2 == 0)
             {
-                string input = Interaction.InputBox("Write down odd number for box:", "Input", "15");
+                string input = Interaction.InputBox("Введите нечетное число:", "Input", "15");
                 if (string.IsNullOrEmpty(input))
                 {
                     pictureBox1.Image = image;
@@ -362,12 +445,12 @@ namespace Imagesss
                 }
                 if (int.TryParse(input, out a) && a % 2 == 1)
                     break;
-                MessageBox.Show("'a' must be odd number", "Error", MessageBoxButtons.OK);
+                MessageBox.Show("'a' должно быть нечетным", "Error", MessageBoxButtons.OK);
 
             }
             while (true)
             {
-                string input = Interaction.InputBox("Write down k:", "Input", "0.15");
+                string input = Interaction.InputBox("Введите k:", "Input", "0,15");
                 if (string.IsNullOrEmpty(input)) return;
                 if (float.TryParse(input, out k))
                     break;
@@ -415,6 +498,8 @@ namespace Imagesss
             pictureBox1.Image = res;
 
         }
+
+
         private static byte[] GetImgBytes(Bitmap img)
         {
             if (img == null || img.Width == 0 || img.Height == 0)

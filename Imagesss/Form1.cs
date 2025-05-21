@@ -60,13 +60,13 @@ namespace Imagesss
             this.DoubleBuffered = true;
 
             // Кнопка гистограммы для всего изображения
-            btnShowHistogram = new Button
-            {
-                Text = "Гистограмма",
-                Location = new Point(597, 12),
-                Size = new Size(144, 56)
-            };
-            this.Controls.Add(btnShowHistogram);
+            //btnShowHistogram = new Button
+            //{
+            //    Text = "Гистограмма",
+            //    Location = new Point(597, 12),
+            //    Size = new Size(144, 56)
+            //};
+            //this.Controls.Add(btnShowHistogram);
 
             btnShowHistogram.Click += (sender, e) =>
             {
@@ -84,6 +84,17 @@ namespace Imagesss
                 if (_resultImage != null)
                 {
                     new BinarForm(new Bitmap(_resultImage)).Show();
+                }
+                else
+                {
+                    MessageBox.Show("Нет изображения для анализа");
+                }
+            };
+            btnSpaceFilter.Click += (sender, e) =>
+            {
+                if (_resultImage != null)
+                {
+                    new SpaceFilter(new Bitmap(_resultImage)).Show();
                 }
                 else
                 {
@@ -601,6 +612,11 @@ namespace Imagesss
         }
 
         private void btnShowHistogram_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSpaceFilter_Click(object sender, EventArgs e)
         {
 
         }

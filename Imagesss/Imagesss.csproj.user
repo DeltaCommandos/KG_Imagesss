@@ -11,5 +11,8 @@
     <Compile Update="HistogramForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="SpaceFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

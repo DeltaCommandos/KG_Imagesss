@@ -37,18 +37,17 @@
             // 
             comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "No", "Gavrilov", "Niblack", "Sauvol", "Wolf", "Bradley-Roth" });
+            comboBox1.Items.AddRange(new object[] { "Нет", "Гаврилов", "Отсу","Ниблекс", "Саувол", "Вольф", "Брэдли-Рот" });
             comboBox1.Location = new Point(12, 12);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(327, 23);
+            comboBox1.Size = new Size(233, 23);
             comboBox1.TabIndex = 0;
             // 
             // pictureBox1
             // 
-            pictureBox1.BackColor = SystemColors.ActiveBorder;
-            pictureBox1.Location = new Point(12, 41);
+            pictureBox1.Location = new Point(12, 57);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(941, 467);
+            pictureBox1.Size = new Size(941, 451);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
@@ -57,7 +56,6 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(965, 520);
             Controls.Add(pictureBox1);
             Controls.Add(comboBox1);
