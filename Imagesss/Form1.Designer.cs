@@ -24,7 +24,7 @@
             btnShowHistogram = new Button();
             btnBinary = new Button();
             btnSpaceFilter = new Button();
-            button1 = new Button();
+            btnFreqFilter = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -101,15 +101,15 @@
             btnSpaceFilter.UseVisualStyleBackColor = false;
             btnSpaceFilter.Click += btnSpaceFilter_Click;
             // 
-            // button1
+            // btnFreqFilter
             // 
-            button1.BackColor = SystemColors.ButtonFace;
-            button1.Location = new Point(511, 12);
-            button1.Name = "button1";
-            button1.Size = new Size(145, 26);
-            button1.TabIndex = 9;
-            button1.Text = "Частотная фильтрация";
-            button1.UseVisualStyleBackColor = false;
+            btnFreqFilter.BackColor = SystemColors.ButtonFace;
+            btnFreqFilter.Location = new Point(511, 12);
+            btnFreqFilter.Name = "btnFreqFilter";
+            btnFreqFilter.Size = new Size(145, 26);
+            btnFreqFilter.TabIndex = 9;
+            btnFreqFilter.Text = "Частотная фильтрация";
+            btnFreqFilter.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -117,7 +117,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientActiveCaption;
             ClientSize = new Size(1055, 569);
-            Controls.Add(button1);
+            Controls.Add(btnFreqFilter);
             Controls.Add(btnSpaceFilter);
             Controls.Add(btnBinary);
             Controls.Add(btnShowHistogram);
@@ -140,6 +140,6 @@
         private Button btnShowHistogram;
         private Button btnBinary;
         private Button btnSpaceFilter;
-        private Button button1;
+        private Button btnFreqFilter;
     }
 }

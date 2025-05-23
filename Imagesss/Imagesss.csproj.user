@@ -8,10 +8,16 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="SpaceFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FreqFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="HistogramForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="SpaceFilter.cs">
+    <Compile Update="Filter.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

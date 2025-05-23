@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|d:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\imagesss (1)\\kg_imagesss\\imagesss\\spacefilter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|solutionrelative:spacefilter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|d:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\imagesss (1)\\kg_imagesss\\imagesss\\freqfilter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|solutionrelative:freqfilter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|d:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\imagesss (1)\\kg_imagesss\\imagesss\\freqfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|solutionrelative:freqfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|d:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\imagesss (1)\\kg_imagesss\\imagesss\\freqfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|solutionrelative:freqfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|d:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\imagesss (1)\\kg_imagesss\\imagesss\\spacefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|solutionrelative:spacefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\spacefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|d:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\imagesss (1)\\kg_imagesss\\imagesss\\spacefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|solutionrelative:spacefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|d:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\imagesss (1)\\kg_imagesss\\imagesss\\binarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|solutionrelative:binarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|d:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\imagesss (1)\\kg_imagesss\\imagesss\\binarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3121AAAA-42AC-454B-BBE4-9FC1315AB182}|Imagesss.csproj|solutionrelative:binarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,66 +50,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BinarForm.cs",
-              "DocumentMoniker": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\BinarForm.cs",
-              "RelativeDocumentMoniker": "BinarForm.cs",
-              "ToolTip": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\BinarForm.cs",
-              "RelativeToolTip": "BinarForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FreqFilter.Designer.cs",
+              "DocumentMoniker": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\FreqFilter.Designer.cs",
+              "RelativeDocumentMoniker": "FreqFilter.Designer.cs",
+              "ToolTip": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\FreqFilter.Designer.cs",
+              "RelativeToolTip": "FreqFilter.Designer.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAjwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T15:41:58.37Z",
+              "WhenOpened": "2025-05-23T20:38:25.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FreqFilter.cs",
+              "DocumentMoniker": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\FreqFilter.cs",
+              "RelativeDocumentMoniker": "FreqFilter.cs",
+              "ToolTip": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\FreqFilter.cs",
+              "RelativeToolTip": "FreqFilter.cs",
+              "ViewState": "AgIAACkBAAAAAAAAAAAUwDgBAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T20:36:38.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BinarForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\BinarForm.cs",
-              "RelativeDocumentMoniker": "BinarForm.cs",
-              "ToolTip": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\BinarForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "BinarForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Title": "SpaceFilter.cs",
+              "DocumentMoniker": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\SpaceFilter.cs",
+              "RelativeDocumentMoniker": "SpaceFilter.cs",
+              "ToolTip": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\SpaceFilter.cs",
+              "RelativeToolTip": "SpaceFilter.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAUwKMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T15:41:51.082Z",
+              "WhenOpened": "2025-05-23T20:15:06.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SpaceFilter.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\SpaceFilter.cs",
+              "RelativeDocumentMoniker": "SpaceFilter.cs",
+              "ToolTip": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\SpaceFilter.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "SpaceFilter.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T20:06:22.011Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SpaceFilter.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\SpaceFilter.cs",
-              "RelativeDocumentMoniker": "SpaceFilter.cs",
-              "ToolTip": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\SpaceFilter.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
-              "RelativeToolTip": "SpaceFilter.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "Title": "FreqFilter.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\FreqFilter.cs",
+              "RelativeDocumentMoniker": "FreqFilter.cs",
+              "ToolTip": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\FreqFilter.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "FreqFilter.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:58:28.079Z",
+              "WhenOpened": "2025-05-23T20:06:32.16Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SpaceFilter.cs",
-              "DocumentMoniker": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\SpaceFilter.cs",
-              "RelativeDocumentMoniker": "SpaceFilter.cs",
-              "ToolTip": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\SpaceFilter.cs*",
-              "RelativeToolTip": "SpaceFilter.cs*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T10:08:21.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SpaceFilter.Designer.cs",
-              "DocumentMoniker": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\SpaceFilter.Designer.cs",
-              "RelativeDocumentMoniker": "SpaceFilter.Designer.cs",
-              "ToolTip": "D:\\\u043F\u0435\u0440\u0435\u0431\u0440\u043E\u0441\\Imagesss (1)\\KG_Imagesss\\Imagesss\\SpaceFilter.Designer.cs*",
-              "RelativeToolTip": "SpaceFilter.Designer.cs*",
-              "ViewState": "AgIAAB8AAAAAAAAAAADwvzoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:57:39.853Z",
-              "EditorCaption": ""
             }
           ]
         }

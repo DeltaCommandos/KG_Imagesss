@@ -79,22 +79,33 @@ namespace Imagesss
                     MessageBox.Show("Нет изображения для анализа");
                 }
             };
-            btnBinary.Click += (sender, e) =>
+            //btnBinary.Click += (sender, e) =>
+            //{
+            //    if (_resultImage != null)
+            //    {
+            //        new BinarForm(new Bitmap(_resultImage)).Show();
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("Нет изображения для анализа");
+            //    }
+            //};
+            btnSpaceFilter.Click += (sender, e) =>
             {
                 if (_resultImage != null)
                 {
-                    new BinarForm(new Bitmap(_resultImage)).Show();
+                    new SpaceFilter(new Bitmap(_resultImage)).Show();
                 }
                 else
                 {
                     MessageBox.Show("Нет изображения для анализа");
                 }
             };
-            btnSpaceFilter.Click += (sender, e) =>
+            btnFreqFilter.Click += (sender, e) =>
             {
                 if (_resultImage != null)
                 {
-                    new SpaceFilter(new Bitmap(_resultImage)).Show();
+                    new FreqFilter(new Bitmap(_resultImage)).Show();
                 }
                 else
                 {
