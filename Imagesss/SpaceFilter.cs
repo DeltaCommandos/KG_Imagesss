@@ -27,7 +27,7 @@ namespace Imagesss
 
         private async void Median()
         {
-            if (int.TryParse(textBox1.Text, out int msize))
+            if (int.TryParse(numericUpDown1.Text, out int msize))
             {
                 int w = img.Width;
                 int h = img.Height;
@@ -84,7 +84,7 @@ namespace Imagesss
             }
             else
             {
-                MessageBox.Show("Matrix size is incorrect");
+                MessageBox.Show("Некорректный размер");
             }
         }
 
@@ -93,7 +93,7 @@ namespace Imagesss
         {
             try
             {
-                if (int.TryParse(textBox1.Text, out int msize))
+                if (int.TryParse(numericUpDown1.Text, out int msize))
                 {
                     if (msize % 2 != 0)
                     {
@@ -149,17 +149,17 @@ namespace Imagesss
                     }
                     else
                     {
-                        MessageBox.Show("Matrix size should be an odd number");
+                        MessageBox.Show("Размер должен быть нечетным");
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Incorrect matrix size");
+                    MessageBox.Show("Некорректный размер");
                 }
             }
             catch
             {
-                MessageBox.Show("Error!\nCheck your matrix size input and create it");
+                MessageBox.Show("Ошибка!\nСначала создайте матрицу!");
             }
         }
 
@@ -224,13 +224,13 @@ namespace Imagesss
 
         private void GenMatrix()
         {
-            if (int.TryParse(textBox1.Text, out int size))
+            if (int.TryParse(numericUpDown1.Text, out int size))
             {
 
             }
             else
             {
-                MessageBox.Show("Incorrect matrix size");
+                MessageBox.Show("Некорректный размер");
                 return;
             }
             if (size % 2 != 0)
@@ -257,16 +257,16 @@ namespace Imagesss
                     }
                 }
             }
-            else MessageBox.Show("Matrix size should be an odd number");
+            else MessageBox.Show("Размер должен быть нечетным");
         }
         private void Gauss()
         {
            
-            if (int.TryParse(textBox1.Text, out int msize) && int.TryParse(textBox2.Text, out int sigma))
+            if (int.TryParse(textBox2.Text, out int sigma))
             {
-                if (msize % 2 != 0)
+                if (numericUpDown1.Value % 2 != 0)
                 {
-                    double[,] arr = GaussGen(msize, sigma);
+                    double[,] arr = GaussGen(Convert.ToInt32(numericUpDown1.Value), sigma);
                     for (int i = 0; i < arr.GetLength(0); i++)
                     {
                         for (int j = 0; j < arr.GetLength(1); j++)
@@ -275,7 +275,7 @@ namespace Imagesss
                         }
                     }
                 }
-                else MessageBox.Show("Matrix size should be an odd number");
+                else MessageBox.Show("Размер должен быть нечетным");
             }
         }
         private static double[,] GaussGen(int msize, int sigma)
@@ -366,9 +366,7 @@ namespace Imagesss
         private async void button1_Click(object sender, EventArgs e)
         {
 
-
-                // код, который выполняется в фоновом потоке
-                Median();
+               Median();
 
         }
 

@@ -310,7 +310,7 @@ namespace Imagesss
         private void button1_Click(object sender, EventArgs e)
         {
             string ftype = comboBox1.Text;
-            string frtype = comboBox2.Text;
+            //string frtype = comboBox2.Text;
             string filparams = textBox1.Text;
 
             var filterParamsArray = filparams.Split(',').Select(val => double.Parse(val.Trim())).ToArray();
@@ -319,7 +319,7 @@ namespace Imagesss
             var result = Fura(img, ftype, filparams);
             time.Stop();
             //label1.Text=time.ElapsedMilliseconds.ToString()+"ms";
-           pictureBoxSpectrum.Image = result.Item2; // Спектр
+           //pictureBoxSpectrum.Image = result.Item2; // Спектр
             pictureBoxFilter.Image = result.Item3; // Фильтр
             pictureBoxFiltered.Image = result.Item1;
         }

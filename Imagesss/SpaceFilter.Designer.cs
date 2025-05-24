@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
             pictureBox1 = new PictureBox();
             button1 = new Button();
             dataGridView1 = new DataGridView();
@@ -39,17 +38,12 @@
             pictureBox2 = new PictureBox();
             label1 = new Label();
             label2 = new Label();
+            numericUpDown1 = new NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             SuspendLayout();
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(152, 14);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(116, 23);
-            textBox1.TabIndex = 0;
             // 
             // pictureBox1
             // 
@@ -146,12 +140,23 @@
             label2.TabIndex = 10;
             label2.Text = "Сигма:";
             // 
+            // numericUpDown1
+            // 
+            numericUpDown1.Increment = new decimal(new int[] { 2, 0, 0, 0 });
+            numericUpDown1.Location = new Point(152, 14);
+            numericUpDown1.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            numericUpDown1.Name = "numericUpDown1";
+            numericUpDown1.Size = new Size(116, 23);
+            numericUpDown1.TabIndex = 11;
+            numericUpDown1.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
             // SpaceFilter
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientActiveCaption;
             ClientSize = new Size(960, 491);
+            Controls.Add(numericUpDown1);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox2);
@@ -162,19 +167,17 @@
             Controls.Add(dataGridView1);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
-            Controls.Add(textBox1);
             Name = "SpaceFilter";
             Text = "Пространственная фильтрация";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private TextBox textBox1;
         private PictureBox pictureBox1;
         private Button button1;
         private DataGridView dataGridView1;
@@ -185,5 +188,6 @@
         private PictureBox pictureBox2;
         private Label label1;
         private Label label2;
+        private NumericUpDown numericUpDown1;
     }
 }

@@ -33,27 +33,26 @@
             comboBox1 = new ComboBox();
             button1 = new Button();
             textBox1 = new TextBox();
-            pictureBoxSpectrum = new PictureBox();
-            comboBox2 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)pictureBoxFiltered).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxFilter).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBoxSpectrum).BeginInit();
             SuspendLayout();
             // 
             // pictureBoxFiltered
             // 
-            pictureBoxFiltered.Location = new Point(12, 203);
+            pictureBoxFiltered.BackColor = SystemColors.AppWorkspace;
+            pictureBoxFiltered.Location = new Point(15, 142);
             pictureBoxFiltered.Name = "pictureBoxFiltered";
-            pictureBoxFiltered.Size = new Size(391, 235);
+            pictureBoxFiltered.Size = new Size(441, 296);
             pictureBoxFiltered.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBoxFiltered.TabIndex = 0;
             pictureBoxFiltered.TabStop = false;
             // 
             // pictureBoxFilter
             // 
-            pictureBoxFilter.Location = new Point(409, 203);
+            pictureBoxFilter.BackColor = SystemColors.ControlLight;
+            pictureBoxFilter.Location = new Point(291, 15);
             pictureBoxFilter.Name = "pictureBoxFilter";
-            pictureBoxFilter.Size = new Size(388, 235);
+            pictureBoxFilter.Size = new Size(165, 121);
             pictureBoxFilter.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBoxFilter.TabIndex = 1;
             pictureBoxFilter.TabStop = false;
@@ -69,11 +68,11 @@
             // 
             // button1
             // 
-            button1.Location = new Point(15, 142);
+            button1.Location = new Point(15, 96);
             button1.Name = "button1";
             button1.Size = new Size(197, 40);
             button1.TabIndex = 3;
-            button1.Text = "Calculate";
+            button1.Text = "Рассчитать";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
@@ -84,33 +83,12 @@
             textBox1.Size = new Size(197, 23);
             textBox1.TabIndex = 4;
             // 
-            // pictureBoxSpectrum
-            // 
-            pictureBoxSpectrum.Location = new Point(409, 54);
-            pictureBoxSpectrum.Name = "pictureBoxSpectrum";
-            pictureBoxSpectrum.Size = new Size(388, 143);
-            pictureBoxSpectrum.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBoxSpectrum.TabIndex = 5;
-            pictureBoxSpectrum.TabStop = false;
-            // 
-            // comboBox2
-            // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Items.AddRange(new object[] { "Низких частот", "Высоких частот" });
-            comboBox2.Location = new Point(15, 94);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(197, 23);
-            comboBox2.TabIndex = 6;
-            comboBox2.Visible = false;
-            // 
             // FreqFilter
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientActiveCaption;
-            ClientSize = new Size(800, 450);
-            Controls.Add(comboBox2);
-            Controls.Add(pictureBoxSpectrum);
+            ClientSize = new Size(472, 450);
             Controls.Add(textBox1);
             Controls.Add(button1);
             Controls.Add(comboBox1);
@@ -120,7 +98,6 @@
             Text = "Частотная фильтрация";
             ((System.ComponentModel.ISupportInitialize)pictureBoxFiltered).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxFilter).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBoxSpectrum).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -132,7 +109,5 @@
         private ComboBox comboBox1;
         private Button button1;
         private TextBox textBox1;
-        private PictureBox pictureBoxSpectrum;
-        private ComboBox comboBox2;
     }
 }
